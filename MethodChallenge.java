@@ -7,6 +7,16 @@ public class MethodChallenge {
         // String position = "on the high score table."
         int playerHighScore = calculateHighScorePosition(1500);
         displayHighScorePosition("Masoom",playerHighScore, " managed to get into position ", " on the high score table.");
+
+        playerHighScore = calculateHighScorePosition(550);
+        displayHighScorePosition("Masoom",playerHighScore, " managed to get into position ", " on the high score table.");
+
+        playerHighScore = calculateHighScorePosition(200);
+        displayHighScorePosition("Masoom",playerHighScore, " managed to get into position ", " on the high score table.");
+
+        playerHighScore = calculateHighScorePosition(90);
+        displayHighScorePosition("Masoom",playerHighScore, " managed to get into position ", " on the high score table.");
+
     }
 
      public static void displayHighScorePosition(String playerName, int highScore, String message, String positon){
