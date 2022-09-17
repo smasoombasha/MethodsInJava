@@ -9,13 +9,16 @@ public class MethodChallenge {
         displayHighScorePosition("Masoom",playerHighScore, " managed to get into position ", " on the high score table.");
 
         playerHighScore = calculateHighScorePosition(550);
-        displayHighScorePosition("Masoom",playerHighScore, " managed to get into position ", " on the high score table.");
+        displayHighScorePosition("Basha",playerHighScore, " managed to get into position ", " on the high score table.");
 
         playerHighScore = calculateHighScorePosition(200);
-        displayHighScorePosition("Masoom",playerHighScore, " managed to get into position ", " on the high score table.");
+        displayHighScorePosition("Shiva",playerHighScore, " managed to get into position ", " on the high score table.");
 
         playerHighScore = calculateHighScorePosition(90);
-        displayHighScorePosition("Masoom",playerHighScore, " managed to get into position ", " on the high score table.");
+        displayHighScorePosition("Rangadu",playerHighScore, " managed to get into position ", " on the high score table.");
+
+        playerHighScore = calculateHighScorePosition(1000);
+        displayHighScorePosition("Surendra",playerHighScore, " managed to get into position ", " on the high score table.");
 
     }
 
@@ -24,11 +27,11 @@ public class MethodChallenge {
                 System.out.println(displayHighScore);
     }
     public static int calculateHighScorePosition(int score){
-      if(score >1000){
+      if(score >=1000){
           return 1;
-      }else if(score >500 && score <1000){
+      }else if(score >=500 && score <1000){
           return 2;
-      }else if(score >100 && score <500){
+      }else if(score >=100 && score <500){
           return 3;
       }else{
           return 4;
